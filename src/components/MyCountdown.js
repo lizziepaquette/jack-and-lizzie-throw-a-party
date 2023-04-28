@@ -44,7 +44,7 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
     <SlideshowWrapper className ="pa-carousel-widget"
       style={{ width: '100%', height: '100vh', marginRight: '10px'}}
       data-link="https://photos.app.goo.gl/D98H1yWFNchVD2Z77"
-      data-title="Last Chill On Mint Hill Album"
+      data-title="Jack and Lizzie Throw a Party Album"
       data-description="86 new items added to shared album"
       data-delay="3">
       <object data="https://lh3.googleusercontent.com/vci0P9NioeDezquuJ2bBQKxxRIyy4z5buION8LYQCtmpnpAOaHWPmDuwHbKNOVlzTMnxxMPelKzMPlW6UzzzP6N2hzTr7BbgdmM5c50RNoKR1Gx7kosbyl2qxmg1M7SM0oTyy7AiIEc=w1920-h1080"></object>
