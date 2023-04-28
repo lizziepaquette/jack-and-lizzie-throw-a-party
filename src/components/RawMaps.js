@@ -6,7 +6,6 @@ const RawMaps = () => (
         height="400px"
         // style="border:0;"
         allowFullScreen=""
-        position="relative"
         loading="lazy">
     </iframe>
 )
