@@ -2,7 +2,7 @@ import { slide as Reveal } from 'react-burger-menu'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import React, { useState } from 'react'
-import GithubIcon from '../photos/mark-github.svg'
+import GithubIcon from '../assets/photos/mark-github.svg'
 
 const styles = {
   bmBurgerButton: {

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import NightSky from '../photos/Sunset.mp4'
+import NightSky from '../assets/photos/stock-footage-elegant-soft-shiny-dark-blue-oxford-blue-velvet-fabric-textile-abstract-fashion-interior-fabric.webm'
 
 const SpotifyIframe = styled.iframe`
     align-items: center;
@@ -20,18 +20,18 @@ const MyVideo = styled.video`
   width: 100vw;
   height: 100vh;
   position: fixed;
-  right: 0;
-  bottom: 0;
+  left: 0;
+  top: 0;
   min-width: 100%;
   min-height: 100%;
 `
 
 const CursiveTxt = styled.h1`
     color: white;
-    font-family: 'League Script', cursive;
-    font-size: 250%;
+    font-family: 'Allura';
+    font-size: 550%;
     // letter-spacing: 2px;
-    font-weight: 700;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -57,16 +57,16 @@ const Playlist = () => (
   <PageWrapper>
     <NightSkyBackground/>
     <CursiveTxt>
-      Collaborative Playlist
+      Saturday the 27th of May
     </CursiveTxt>
 
-    <SpotifyIframe
-      title="Collaborative Playlist"
+    {/* <SpotifyIframe
+      title="Menu"
       src="https://open.spotify.com/embed/playlist/0enlhEdYk1fU71Zzxh1n7d?utm_source=generator"
       frameborder="0"
       allowtransparency="true"
       allow="encrypted-media">
-    </SpotifyIframe>
+    </SpotifyIframe> */}
   </PageWrapper>
 )
 

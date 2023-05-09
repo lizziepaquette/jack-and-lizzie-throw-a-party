@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Countdown from 'react-countdown'
-import temeculaMainPhoto from '../photos/300-buchanan-bw.jpg'
-import funnyBwBackground from '../photos/temecula-main-view-bw.svg'
+import temeculaMainPhoto from '../assets/photos/300-buchanan-bw.jpg'
+import funnyBwBackground from '../assets/photos/temecula-main-view-bw.svg'
 import scriptLoader from "react-async-script-loader";
 
 const CountdownHeader = styled.h1`

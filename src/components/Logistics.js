@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Road from '../photos/discoball.webp'
+import Road from '../assets/photos/discoball.webp'
 
 const LogisticsIframe = styled.iframe`
     align-items: center;

@@ -1,7 +1,7 @@
 import React from "react"
 import scriptLoader from "react-async-script-loader";
 import RepoCard from "react-repo-card";
-import Clouds from '../photos/clouds.mp4';
+import Clouds from '../assets/photos/clouds.mp4';
 import styled from 'styled-components';
 
 

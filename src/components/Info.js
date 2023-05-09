@@ -2,7 +2,7 @@ import React from 'react'
 import AirbnbPreview from './AirbnbPreview'
 import RawCalendar from './RawCalendar'
 import YoutubeVid from './YoutubeVid'
-import Sunset from '../photos/alamosquare.jpeg'
+import Sunset from '../assets/photos/alamosquare.jpeg'
 import styled from 'styled-components'
 import RawMaps from './RawMaps'
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Sunset from '../photos/rollerskates.jpeg'
+import Sunset from '../assets/photos/rollerskates.jpeg'
 import styled from 'styled-components'
 
 
