@@ -34,70 +34,41 @@ const Bdiv = styled.div`
 const Schedule = () => {
   const infoSectionProps = [
     {
-      title: 'Dolores Park',
+      title: '2pm - 4pm: The Coffee Movement',
       content: <div>
-        <div> 2pm - 4pm </div>
         <div>
-          We don&apos;t hang at Dolores much (it&apos;s too &quot;crowded&quot; for Jack :-/), but we&apos;ve spent a lot of time
-          over the last 3 years chilling in parks and its location
-          (southern-most stop on our tour, close to 16th-Mission BART) makes it the day&apos;s perfect starting point
+          One Saturday this past December, I went down the rabbit hole that is the US Coffee Championships. What did I find? 
+          One of 2022's Barista finalists owned a shop in SF!!<br /><br /> Their shop in the Richmond is beautiful, they get their beans 
+          from some of the world's best roasters, and if you tell the owner that you loved your coffee, he may respond with, "You deserve it"... 
+          Self-love highly encouraged!
         </div>
       </div>
     },
     {
-      title: 'Bar Part Time',
+      title: '4:15pm - 6:30pm: Roosevelt & Edison Escape Rooms @ Palace Games',
       content: <div>
-            <div> 4pm - 6pm </div>
             <div>
-              3 years ago, our friend Thomas showed us Ruby Wine, and it was love-at-first-sip-on-Potrero-Hill (or something like that).
-              Ruby is a little far to include in our tour, but Thomas has since showed us Bar Part Time - a magical venue sharing Ruby&apos;s
-              regulars, but inside with a disco ball.
+              Our Escape Room-designing friend Matthew Stein doesn't just hand out room recommendations, but Palace Games' rooms were one of the 
+              3 places in the Bay that he touted! <br /><br /> Each room fits 4-8 solvers, so we'll divide up and have some fun!
             </div>
         </div>
     },
     {
-      title: 'Little Star Pizza/Dancing Yak',
+      title: '6:45pm - 8:15pm: Pollo a la Brasa from Jaranitas',
       content: <div>
-            <div> 6pm - 7pm </div>
             <div>
-              We relied on Little Star&apos;s deep dish a solid bit during the pandemic. They have Vegan Cheese that Lizzie and Jack approve of,
-              so our stomachs can all rest a little easier after this stop.
-              <br></br>
-              <br></br>
-              Feeling Nepali? Dancing Yak is another one of our faves and it&apos;s up half a block from Little Star! Jack once stole an ice cube
-              out of Lizzie&apos;s mouth while eating their Butter Chicken because it was so spicy...
+              May tweak this but... we'll step out of our escape rooms and into the lovely Palace of Fine Arts, toss down some park blankets on the grass, get 
+              Pollo a la Brasa (Peruvian roasted chicken) delivered from Jaranitas, break open beverages of our chosing, and recharge while the sun sets over the Golden Gate.
             </div>
         </div>
     },
     {
-      title: '300 Buchanan st',
+      title: '9pm - Whenever: Bar Part Time',
       content: <div>
-            <div> 7pm - 9pm  </div>
             <div>
-              A chance to see our digs one final time and make cocktails from pre-selected recipes.
-              You&apos;ll need the cocktails to get through Jack sobbing and pointing out mundane
-              objects in the southern San Francisco landscape for the full 2 hours.
+              The natural wine... The dj sets... The fog... The disco ball...<br /><br /> 
+              <strong>WE ALL KNEW IT WAS COMING BUT I STILL WANT IT, DAMMIT!!</strong>
             </div>
-        </div>
-    },
-        {
-      title: 'Church of 8 Wheels',
-      content: <div>
-            <Bdiv> 9pm - 11pm  </Bdiv>
-            <div>
-              The entree to end all entrees - the incomparable Church of 8 Wheels. Watch Lizzie
-              zoom around the church while the rest of us absorb the funk and admire the magical
-              weaving of skaters deep into the Fillmore night.
-            </div>
-          </div>
-    },
-        {
-      title: 'Karaoke',
-      content: <div>
-          <div > 11pm - 2am  </div>
-          <div>
-            I highly doubt I&apos;ll be awake for this. - Jack
-          </div>
         </div>
     }
   ]
