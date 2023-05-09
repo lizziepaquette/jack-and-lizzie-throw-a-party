@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.865808f3.chunk.css",
-    "main.js": "/static/js/main.cf059cec.chunk.js",
-    "main.js.map": "/static/js/main.cf059cec.chunk.js.map",
+    "main.css": "/static/css/main.8cac58a4.chunk.css",
+    "main.js": "/static/js/main.1d756fa1.chunk.js",
+    "main.js.map": "/static/js/main.1d756fa1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9a86dcb7.js",
     "runtime-main.js.map": "/static/js/runtime-main.9a86dcb7.js.map",
     "static/js/2.3f5d2a0f.chunk.js": "/static/js/2.3f5d2a0f.chunk.js",
@@ -10,21 +10,22 @@
     "static/js/3.f99c79bc.chunk.js": "/static/js/3.f99c79bc.chunk.js",
     "static/js/3.f99c79bc.chunk.js.map": "/static/js/3.f99c79bc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.865808f3.chunk.css.map": "/static/css/main.865808f3.chunk.css.map",
+    "static/css/main.8cac58a4.chunk.css.map": "/static/css/main.8cac58a4.chunk.css.map",
     "static/js/2.3f5d2a0f.chunk.js.LICENSE.txt": "/static/js/2.3f5d2a0f.chunk.js.LICENSE.txt",
     "static/media/300-buchanan-bw.49ef713b.jpg": "/static/media/300-buchanan-bw.49ef713b.jpg",
-    "static/media/Sunset.8c06933b.mp4": "/static/media/Sunset.8c06933b.mp4",
+    "static/media/index.css": "/static/media/Allura-Regular.a8518735.ttf",
     "static/media/alamosquare.c4d27088.jpeg": "/static/media/alamosquare.c4d27088.jpeg",
     "static/media/clouds.6ead6256.mp4": "/static/media/clouds.6ead6256.mp4",
     "static/media/discoball.045b6096.webp": "/static/media/discoball.045b6096.webp",
     "static/media/mark-github.6f0ab568.svg": "/static/media/mark-github.6f0ab568.svg",
     "static/media/rollerskates.9016d65b.jpeg": "/static/media/rollerskates.9016d65b.jpeg",
+    "static/media/stock-footage-elegant-soft-shiny-dark-blue-oxford-blue-velvet-fabric-textile-abstract-fashion-interior-fabric.092d6a44.webm": "/static/media/stock-footage-elegant-soft-shiny-dark-blue-oxford-blue-velvet-fabric-textile-abstract-fashion-interior-fabric.092d6a44.webm",
     "static/media/temecula-main-view-bw.9647a94b.svg": "/static/media/temecula-main-view-bw.9647a94b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9a86dcb7.js",
     "static/js/2.3f5d2a0f.chunk.js",
-    "static/css/main.865808f3.chunk.css",
-    "static/js/main.cf059cec.chunk.js"
+    "static/css/main.8cac58a4.chunk.css",
+    "static/js/main.1d756fa1.chunk.js"
   ]
 }
