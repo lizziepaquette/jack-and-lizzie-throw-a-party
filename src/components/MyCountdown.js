@@ -7,20 +7,18 @@ import swapBackground from '../assets/swapparty/swapguy.webp'
 import scriptLoader from "react-async-script-loader";
 
 const CountdownHeader = styled.h1`
-  font-size: 14vmin;
+  font-size: 10vmin;
   text-shadow: -1px 0 SkyBlue, 0 1px DarkGreen, 1px 0 LightSalmon, 0 -1px DarkGreen;
   margin: 0px;
-  padding-top: 100px;
-  font-weight: 550;
+  font-weight: 400;
   text-transform: uppercase;
   // letter-spacing: 3px;
   font-family: 'Montserrat', sans-serif;
 `
 
 const CountdownClockWrapper = styled.div`
-  height: 100vh;
-  width: 100vw;
   color: white;
+  padding: 75px 0px 0px 75px;
   // background-color: white;
   // background-image: url("${props => props.bgImg}");
   // background-size: cover;
@@ -34,9 +32,8 @@ const CountdownClockWrapper = styled.div`
 `
 
 const SwapPartyArt = styled.img`
-  height: 30%;
-  width: 30%;
-  max-width: 300px;
+  width: 75%;
+  aspect-ratio: 1 / 1;
 `
 
 const SlideshowWrapper = styled.div`
@@ -148,10 +145,10 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
   else if (tripIsOver){
     return (
       <CountdownClockWrapper bgImg={ swapBackground } >
-        <CountdownHeader>I really hope it was fun.</CountdownHeader>
+        <CountdownHeader>Stuff Swap: A Spring Cleaning Party</CountdownHeader>
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <br/><br/>
-        <div>Stuff Swap: A Lizzie Birthday Party</div><br/><br/>
+        <br/><br/>
         <div>[further description...]</div>
       </CountdownClockWrapper>
     )
