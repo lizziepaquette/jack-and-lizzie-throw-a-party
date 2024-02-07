@@ -116,19 +116,20 @@ const Menu = ({ pageWrapId, outerContainerId }
     {
       linkTitle: 'Info',
       linkDestination: '/info'
-    },
-    {
-      linkTitle: 'Schedule',
-      linkDestination: '/schedule'
-    },
-    {
-      linkTitle: 'Running Updates',
-      linkDestination: '/running-updates'
-    },
-    {
-      linkTitle: 'Collaborative Playlist',
-      linkDestination: '/playlist'
     }
+    // ,
+    // {
+    //   linkTitle: 'Schedule',
+    //   linkDestination: '/schedule'
+    // },
+    // {
+    //   linkTitle: 'Running Updates',
+    //   linkDestination: '/running-updates'
+    // },
+    // {
+    //   linkTitle: 'Collaborative Playlist',
+    //   linkDestination: '/playlist'
+    // }
   ]
 
   const smallScreenObj = window.matchMedia('(max-width: 375px)')

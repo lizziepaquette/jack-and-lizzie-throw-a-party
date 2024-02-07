@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import Countdown from 'react-countdown'
-import temeculaMainPhoto from '../assets/photos/300-buchanan-bw.jpg'
-import funnyBwBackground from '../assets/photos/temecula-main-view-bw.svg'
+import temeculaMainPhoto from '../assets/swapparty/clip-art-swap.jpeg'
+import clipArtSwapPhoto from '../assets/swapparty/clip-art-swap.jpeg'
+import swapBackground from '../assets/swapparty/swapguy.webp'
 import scriptLoader from "react-async-script-loader";
 
 const CountdownHeader = styled.h1`
   font-size: 14vmin;
   text-shadow: -1px 0 SkyBlue, 0 1px DarkGreen, 1px 0 LightSalmon, 0 -1px DarkGreen;
   margin: 0px;
+  padding-top: 100px;
   font-weight: 550;
   text-transform: uppercase;
   // letter-spacing: 3px;
@@ -19,15 +21,22 @@ const CountdownClockWrapper = styled.div`
   height: 100vh;
   width: 100vw;
   color: white;
-  background-image: url("${props => props.bgImg}");
-  background-size: cover;
-  box-sizing: border-box;
-  background-position: 30% 50%;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 20vh;
+  // background-color: white;
+  // background-image: url("${props => props.bgImg}");
+  // background-size: cover;
+  // box-sizing: border-box;
+  // background-position: 50% 50%;
+  // background-repeat: no-repeat;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // line-height: 20vh;
+`
+
+const SwapPartyArt = styled.img`
+  height: 30%;
+  width: 30%;
+  max-width: 300px;
 `
 
 const SlideshowWrapper = styled.div`
@@ -138,8 +147,12 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
   }
   else if (tripIsOver){
     return (
-      <CountdownClockWrapper bgImg={ funnyBwBackground } >
+      <CountdownClockWrapper bgImg={ swapBackground } >
         <CountdownHeader>I really hope it was fun.</CountdownHeader>
+        <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
+        <br/><br/>
+        <div>Stuff Swap: A Lizzie Birthday Party</div><br/><br/>
+        <div>[further description...]</div>
       </CountdownClockWrapper>
     )
   }
