@@ -37,7 +37,20 @@ const CountdownClockWrapper = styled.div`
 const SwapPartyArt = styled.img`
   width: 75%;
   aspect-ratio: 1 / 1;
+  padding: 10px 0px;
 `
+
+const EventDetails = styled.div`
+  text-align: left;
+`;
+
+const DateHeader = styled.div`
+  font-weight: 500;
+  font-size: 30px;
+  @media screen and (max-width: 720px) {
+      font-size: 28px;
+  }
+`;
 
 const SlideshowWrapper = styled.div`
 `
@@ -150,36 +163,37 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
       <CountdownClockWrapper bgImg={ swapBackground } >
         <CountdownHeader>Stuff Swap: A Spring Cleaning Party</CountdownHeader>
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
-        <br/><br/>
-        <br/><br/>
-        <div>
-          <h2>What:</h2>
-          <ol>
-            <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
-            <li>We set you up with a station to display said stuff</li>
-            <li>Friends roaming around will ask if they can have some of your stuff</li>
-            <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
-            <br></br>
-          </ol>
-          <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink! 
-            We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
-          </p>
-        </div>
-        <div>
-          <h2>Where:</h2>
-          <h3>
-            5110 Telegraph Ave. <br></br>
-            Unit 222 <br></br>
-            Oakland, CA 94609
-          </h3>
-        </div>
-        <div>
-          <h2>When:</h2>
-          <h3 style={{ marginBottom: '0px' }}>
-            Saturday Feb. 10, 2024 <br></br>
-            3 pm PST til whenever
-          </h3>
-        </div>
+        <EventDetails>
+          <DateHeader>Saturday, Feb 17</DateHeader>
+          <div>
+            <h2>What:</h2>
+            <ol>
+              <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
+              <li>We set you up with a station to display said stuff</li>
+              <li>Friends roaming around will ask if they can have some of your stuff</li>
+              <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
+              <br></br>
+            </ol>
+            <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink! 
+              We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
+            </p>
+          </div>
+          <div>
+            <h2>Where:</h2>
+            <h3>
+              5110 Telegraph Ave. <br></br>
+              Unit 222 <br></br>
+              Oakland, CA 94609
+            </h3>
+          </div>
+          <div>
+            <h2>When:</h2>
+            <h3 style={{ marginBottom: '0px' }}>
+              Saturday Feb. 10, 2024 <br></br>
+              3 pm PST til whenever
+            </h3>
+          </div>
+        </EventDetails>
       </CountdownClockWrapper>
     )
   }
