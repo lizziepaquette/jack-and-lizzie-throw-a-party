@@ -7,11 +7,13 @@ import crownPng from '../assets/swapparty/partiful-crown.png'
 
 const SwapHeader = styled.h1`
   font-size: 61px;
-  text-shadow: -1px 0 SkyBlue, 0 1px DarkGreen, 1px 0 LightSalmon, 0 -1px DarkGreen;
   margin: 0px;
   font-weight: 400;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
+
+  @media screen and (max-width: 720px) {
+    font-size: 39px;
+  }
 `
 
 const SwapWrapper = styled.div`
@@ -31,6 +33,7 @@ const SwapPartyArt = styled.img`
 const EventDetails = styled.div`
   text-align: left;
   color: #ffffff99;
+  padding-right: 25px;
 `;
 
 const StartTime = styled.div`
@@ -90,7 +93,7 @@ const ItineraryList = styled.ol`
 const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
-        <SwapHeader>Stuff Swap: A Spring Cleaning Party</SwapHeader>
+        <SwapHeader><span>Stuff Swap: A Spring Cleaning Party</span></SwapHeader>
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <EventDetails>
           <DateHeader>Saturday, Feb 17</DateHeader>
