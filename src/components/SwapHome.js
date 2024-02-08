@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import clipArtSwapPhoto from '../assets/swapparty/clip-art-swap.jpeg'
 import swapBackground from '../assets/swapparty/swapguy.webp'
+import locationPng from '../assets/swapparty/partiful-location.png'
+import crownPng from '../assets/swapparty/partiful-crown.png'
 
 const SwapHeader = styled.h1`
   font-size: 61px;
@@ -30,7 +32,7 @@ const EventDetails = styled.div`
   text-align: left;
   color: #ffffff99;
 `;
-  
+
 const StartTime = styled.div`
   font-size: 22px;
   @media screen and (max-width: 720px) {
@@ -74,6 +76,8 @@ const SwapHome = () => {
           </div>
           <div>
             <h2>Where:</h2>
+            <img src={ locationPng } />
+            <img src={ crownPng } />
             <h3>
               5110 Telegraph Ave. <br></br>
               Unit 222 <br></br>
