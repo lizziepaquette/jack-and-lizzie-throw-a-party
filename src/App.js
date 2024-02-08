@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react'
 import Playlist from './components/Playlist'
-import MyCountdown from './components/MyCountdown'
+import SwapHome from './components/SwapHome'
 import AirbnbPreview from './components/AirbnbPreview'
 import Jobs from './components/Jobs'
 import Info from './components/Info'
@@ -25,7 +25,7 @@ function App () {
             <Route
               exact
               path='/'
-              component={MyCountdown}
+              component={SwapHome}
             />
             <Route
               exact
