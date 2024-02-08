@@ -7,7 +7,7 @@ import swapBackground from '../assets/swapparty/swapguy.webp'
 import scriptLoader from "react-async-script-loader";
 
 const CountdownHeader = styled.h1`
-  font-size: 10vmin;
+  font-size: 61px;
   text-shadow: -1px 0 SkyBlue, 0 1px DarkGreen, 1px 0 LightSalmon, 0 -1px DarkGreen;
   margin: 0px;
   font-weight: 400;
@@ -19,6 +19,9 @@ const CountdownHeader = styled.h1`
 const CountdownClockWrapper = styled.div`
   color: white;
   padding: 75px 0px 30px 75px;
+  background: url(https://assets.getpartiful.com/backgrounds/forest/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
+  text-align: center;
+  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
   // background-color: white;
   // background-image: url("${props => props.bgImg}");
   // background-size: cover;
@@ -151,16 +154,15 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
         <br/><br/>
         <div>
           <h2>What:</h2>
-          <br></br>
           <ol>
             <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
             <li>We set you up with a station to display said stuff</li>
             <li>Friends roaming around will ask if they can have some of your stuff</li>
-            <li>You'll roam around and ask other friends if you can have some of their stuff</li>
+            <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
             <br></br>
           </ol>
-          <p>We'll have drinks on hand but of course BYOB if there's anything you'd like to drink! 
-            We'll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
+          <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink! 
+            We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
           </p>
         </div>
         <div>
