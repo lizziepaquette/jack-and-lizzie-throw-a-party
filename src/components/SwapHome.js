@@ -53,6 +53,20 @@ const PageWrapper = styled.div`
   @media screen and (max-width: 768px) {}
 `
 
+const HostingInfoWrapper = styled.div`
+  margin: 30px 0px;
+`
+
+const HostInfo = styled.div`
+  display: flex;
+  align-items: center;
+`
+
+const LocationInfo = styled.div`
+  display: flex;
+  align-items: center;
+`
+
 const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
@@ -61,6 +75,16 @@ const SwapHome = () => {
         <EventDetails>
           <DateHeader>Saturday, Feb 17</DateHeader>
           <StartTime>3:30 pm PST</StartTime>
+          <HostingInfoWrapper>
+            <HostInfo>
+              <img />
+              <span>Hosted by Jack & Lizzie Throw Parties, Inc.</span>
+            </HostInfo>
+            <LocationInfo>
+              <img />
+              <span>5110 Telegraph Ave. Unit 222 Oakland, CA 94609</span>
+            </LocationInfo>
+          </HostingInfoWrapper>
           <div>
             <h2>What:</h2>
             <ol>
