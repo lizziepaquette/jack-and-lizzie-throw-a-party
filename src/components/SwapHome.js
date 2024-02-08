@@ -28,11 +28,20 @@ const SwapPartyArt = styled.img`
 
 const EventDetails = styled.div`
   text-align: left;
+  color: #ffffff99;
+`;
+  
+const StartTime = styled.div`
+  font-size: 22px;
+  @media screen and (max-width: 720px) {
+      font-size: 20px;
+  }
 `;
 
 const DateHeader = styled.div`
   font-weight: 500;
   font-size: 30px;
+  color: white;
   @media screen and (max-width: 720px) {
       font-size: 28px;
   }
@@ -49,6 +58,7 @@ const SwapHome = () => {
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <EventDetails>
           <DateHeader>Saturday, Feb 17</DateHeader>
+          <StartTime>3:30 pm PST</StartTime>
           <div>
             <h2>What:</h2>
             <ol>
