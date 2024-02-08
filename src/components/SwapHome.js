@@ -60,12 +60,32 @@ const HostingInfoWrapper = styled.div`
 const HostInfo = styled.div`
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
 `
 
 const LocationInfo = styled.div`
   display: flex;
   align-items: center;
 `
+
+const LocationIcon = styled.img`
+  height: 20px;
+  width: 20px;
+  // padding: 10px 0px;
+  margin-right: 10px;
+  opacity: 0.5;
+`
+const CrownIcon = styled.img`
+  height: 20px;
+  width: 20px;
+  opacity: 0.5;
+  // padding: 10px 0px;
+  margin-right: 10px;
+`
+
+const ItineraryList = styled.ol`
+  padding-left: 20px;
+`;
 
 const SwapHome = () => {
   return <PageWrapper className="App">
@@ -77,43 +97,25 @@ const SwapHome = () => {
           <StartTime>3:30 pm PST</StartTime>
           <HostingInfoWrapper>
             <HostInfo>
-              <img />
+              <CrownIcon src={ crownPng } />
               <span>Hosted by Jack & Lizzie Throw Parties, Inc.</span>
             </HostInfo>
             <LocationInfo>
-              <img />
+              <LocationIcon src={ locationPng } />
               <span>5110 Telegraph Ave. Unit 222 Oakland, CA 94609</span>
             </LocationInfo>
           </HostingInfoWrapper>
           <div>
-            <h2>What:</h2>
-            <ol>
+            <ItineraryList>
               <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
               <li>We set you up with a station to display said stuff</li>
               <li>Friends roaming around will ask if they can have some of your stuff</li>
               <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
               <br></br>
-            </ol>
+            </ItineraryList>
             <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink!
               We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
             </p>
-          </div>
-          <div>
-            <h2>Where:</h2>
-            <img src={ locationPng } />
-            <img src={ crownPng } />
-            <h3>
-              5110 Telegraph Ave. <br></br>
-              Unit 222 <br></br>
-              Oakland, CA 94609
-            </h3>
-          </div>
-          <div>
-            <h2>When:</h2>
-            <h3 style={{ marginBottom: '0px' }}>
-              Saturday Feb. 10, 2024 <br></br>
-              3 pm PST til whenever
-            </h3>
           </div>
         </EventDetails>
       </SwapWrapper>
