@@ -18,7 +18,7 @@ const CountdownHeader = styled.h1`
 
 const CountdownClockWrapper = styled.div`
   color: white;
-  padding: 75px 0px 0px 75px;
+  padding: 75px 0px 30px 75px;
   // background-color: white;
   // background-image: url("${props => props.bgImg}");
   // background-size: cover;
@@ -149,7 +149,35 @@ const CountdownClock = ({ days, hours, minutes, seconds, completed }) => {
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <br/><br/>
         <br/><br/>
-        <div>[further description...]</div>
+        <div>
+          <h2>What:</h2>
+          <br></br>
+          <ol>
+            <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
+            <li>We set you up with a station to display said stuff</li>
+            <li>Friends roaming around will ask if they can have some of your stuff</li>
+            <li>You'll roam around and ask other friends if you can have some of their stuff</li>
+            <br></br>
+          </ol>
+          <p>We'll have drinks on hand but of course BYOB if there's anything you'd like to drink! 
+            We'll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
+          </p>
+        </div>
+        <div>
+          <h2>Where:</h2>
+          <h3>
+            5110 Telegraph Ave. <br></br>
+            Unit 222 <br></br>
+            Oakland, CA 94609
+          </h3>
+        </div>
+        <div>
+          <h2>When:</h2>
+          <h3 style={{ marginBottom: '0px' }}>
+            Saturday Feb. 10, 2024 <br></br>
+            3 pm PST til whenever
+          </h3>
+        </div>
       </CountdownClockWrapper>
     )
   }
