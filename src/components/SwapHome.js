@@ -4,6 +4,7 @@ import clipArtSwapPhoto from '../assets/swapparty/clip-art-swap.jpeg'
 import swapBackground from '../assets/swapparty/swapguy.webp'
 import locationPng from '../assets/swapparty/partiful-location.png'
 import crownPng from '../assets/swapparty/partiful-crown.png'
+import SwapPartifulLogo from '../assets/swapparty/swap-partiful.png'
 
 const SwapHeader = styled.h1`
   font-size: 61px;
@@ -16,16 +17,21 @@ const SwapHeader = styled.h1`
   }
 `
 
+const SwapPartifulLogoImg = styled.img`
+  filter: invert(1);
+  text-align: left;
+`;
+
 const SwapWrapper = styled.div`
   color: white;
-  padding: 75px 0px 30px 75px;
+  padding: 20px 0px 30px 20px;
   background: url(https://assets.getpartiful.com/backgrounds/forest/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
-  text-align: center;
+  //text-align: center;
   font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
 `
 
 const SwapPartyArt = styled.img`
-  width: 75%;
+  width: 90%;
   aspect-ratio: 1 / 1;
   padding: 10px 0px;
 `
@@ -93,34 +99,38 @@ const ItineraryList = styled.ol`
 const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
-        <SwapHeader><span>Stuff Swap: A Spring Cleaning Party</span></SwapHeader>
-        <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
-        <EventDetails>
-          <DateHeader>Saturday, Feb 17</DateHeader>
-          <StartTime>3:30 pm PST</StartTime>
-          <HostingInfoWrapper>
-            <HostInfo>
-              <CrownIcon src={ crownPng } />
-              <span>Hosted by Jack & Lizzie Throw Parties, Inc.</span>
-            </HostInfo>
-            <LocationInfo>
-              <LocationIcon src={ locationPng } />
-              <span>5110 Telegraph Ave. Unit 222 Oakland, CA 94609</span>
-            </LocationInfo>
-          </HostingInfoWrapper>
-          <div>
-            <ItineraryList>
-              <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
-              <li>We set you up with a station to display said stuff</li>
-              <li>Friends roaming around will ask if they can have some of your stuff</li>
-              <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
-              <br></br>
-            </ItineraryList>
-            <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink!
-              We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
-            </p>
-          </div>
-        </EventDetails>
+        <div style={{ textAlign: 'left' }}>
+          <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+        </div>
+        <div style={{ paddingLeft: '15px'}}>
+          <SwapHeader>Swap Meet: A Spring Cleaning Party</SwapHeader>
+          <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
+          <EventDetails>
+            <DateHeader>Saturday, Feb 10</DateHeader>
+            <StartTime>3:30 pm PST</StartTime>
+            <HostingInfoWrapper>
+              <HostInfo>
+                <CrownIcon src={ crownPng } />
+                <span>Hosted by Jack & Lizzie Throw Parties, Inc.</span>
+              </HostInfo>
+              <LocationInfo>
+                <LocationIcon src={ locationPng } />
+                <span>5110 Telegraph Ave. Unit 222 Oakland, CA 94609</span>
+              </LocationInfo>
+            </HostingInfoWrapper>
+            <div>
+              <ItineraryList>
+                <li>Bring stuff (clothes, accessories, furniture, electronics, whatever!) that you no longer want</li>
+                <li>Other friends roaming around will take some of your stuff</li>
+                <li>You&apos;ll roam around and take some of other people&apos;s stuff that you want</li>
+                <br></br>
+              </ItineraryList>
+              <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink!
+                We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
+              </p>
+            </div>
+          </EventDetails>
+        </div>
       </SwapWrapper>
     </PageWrapper>
 }
