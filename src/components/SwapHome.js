@@ -93,7 +93,7 @@ const ItineraryList = styled.ol`
 const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
-        <SwapHeader><span>Stuff Swap: A Spring Cleaning Party</span></SwapHeader>
+        <SwapHeader><span>Swap Meet: A Spring Cleaning Party</span></SwapHeader>
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <EventDetails>
           <DateHeader>Saturday, Feb 17</DateHeader>
@@ -110,7 +110,7 @@ const SwapHome = () => {
           </HostingInfoWrapper>
           <div>
             <ItineraryList>
-              <li>Bring stuff (clothes, accessories, furniture, whatever!) that you no longer want</li>
+              <li>Bring stuff (clothes, accessories, furniture, electronics, whatever!) that you no longer want</li>
               <li>We set you up with a station to display said stuff</li>
               <li>Friends roaming around will ask if they can have some of your stuff</li>
               <li>You&apos;ll roam around and ask other friends if you can have some of their stuff</li>
