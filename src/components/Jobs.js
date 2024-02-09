@@ -14,11 +14,19 @@ const MyVideo = styled.video`
   left: 0;
 `;
 
-const CloudsBackground = () => (
-    <MyVideo className='videoTag' autoPlay loop muted>
-      <source src={Clouds} type='video/mp4' />
-  </MyVideo>
-);
+
+const PartifulBackground = styled.div`
+  color: white;
+    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+//   padding: 20px 0px 30px 20px;
+  background: url(https://assets.getpartiful.com/backgrounds/aquatica/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
+  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
+`;
 
 const CardDiv = styled.div`
     float: left;
@@ -36,7 +44,7 @@ const Title = styled.div`
     font-weight: 600;
     text-transform: uppercase;
     // letter-spacing: 3px;
-    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
@@ -63,7 +71,6 @@ const InfoWrapper = styled.div`
   flex-wrap: wrap;
 //   justify-content: flex-start
   justify-content: center;
-  background-color: lightyellow;
   mergin-left: 5px;
   width: 100%;
 //     font-weight: 500;
@@ -94,22 +101,19 @@ const Jobs = ({ isScriptLoaded, isScriptLoadSucceed }) => {
                 content:  <div className="github-card" data-github="justjack555" data-width="300" data-height="" data-theme="default"></div>
             },
             {
-                title: "Jennifer Cummings",
-                content:  <div className="github-card" data-github="jenncummings" data-width="300" data-height="" data-theme="default"></div>
-            },
-            {
                 title: "Github Repository",
-                content: <div className="github-card" data-github="lizziepaquette/house-closing" data-width="300" data-height="" data-theme="default"></div>
+                content: <div className="github-card" data-github="lizziepaquette/jack-and-lizzie-throw-a-party" data-width="300" data-height="" data-theme="default"></div>
 
             }
         ];
         return (
             <div>
-            <CloudsBackground/>
-            <Title> <br/> Meet the Team </Title>
+            <PartifulBackground>
+            <Title> <br/> Meet the Developers </Title>
             <InfoWrapper>
                 { infoSectionProps.map(sec => <InfoSection { ...sec } /> ) }
             </InfoWrapper>
+            </PartifulBackground>
             </div>
         );
 }

@@ -18,7 +18,6 @@ const SwapHeader = styled.h1`
 `
 
 const SwapPartifulLogoImg = styled.img`
-  filter: invert(1);
   text-align: left;
 `;
 
@@ -121,7 +120,7 @@ const SwapHome = () => {
             <div>
               <ItineraryList>
                 <li>Bring stuff (clothes, accessories, furniture, electronics, whatever!) that you no longer want</li>
-                <li>Other friends roaming around will take some of your stuff</li>
+                <li>Friends roaming around will take some of your stuff</li>
                 <li>You&apos;ll roam around and take some of other people&apos;s stuff that you want</li>
                 <br></br>
               </ItineraryList>
