@@ -3,6 +3,7 @@ import scriptLoader from "react-async-script-loader";
 import RepoCard from "react-repo-card";
 import Clouds from '../assets/photos/clouds.mp4';
 import styled from 'styled-components';
+import SwapPartifulLogo from '../assets/swapparty/swap-partiful.png'
 
 
 const MyVideo = styled.video`
@@ -14,6 +15,24 @@ const MyVideo = styled.video`
   left: 0;
 `;
 
+const SwapPartifulLogoImg = styled.img`
+  text-align: left;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 0px;
+  padding-top: 20px;
+  filter: invert(0%);
+  > a {
+    opacity: 80%;
+    cursor: pointer;
+    &:hover {
+      opacity: 150%;
+      > img {
+         width: 150%;
+      }
+    }
+  }
+`;
 
 const PartifulBackground = styled.div`
   color: white;
@@ -109,6 +128,12 @@ const Jobs = ({ isScriptLoaded, isScriptLoadSucceed }) => {
         return (
             <div>
             <PartifulBackground>
+            <div style={{ textAlign: 'left' }}>
+                <a href="#/">
+                <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+                </a>
+            </div>
+
             <Title> <br/> Meet the Developers </Title>
             <InfoWrapper>
                 { infoSectionProps.map(sec => <InfoSection { ...sec } /> ) }

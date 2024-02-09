@@ -99,7 +99,9 @@ const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
         <div style={{ textAlign: 'left' }}>
-          <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+          <a href="#">
+            <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+         </a>
         </div>
         <div style={{ paddingLeft: '15px'}}>
           <SwapHeader>Swap Meet: A Spring Cleaning Party</SwapHeader>
