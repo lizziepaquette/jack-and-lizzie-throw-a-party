@@ -23,7 +23,7 @@ const SwapPartifulLogoImg = styled.img`
 
 const SwapWrapper = styled.div`
   color: white;
-  padding: 20px 0px 30px 20px;
+  padding: 20px 30px 30px 20px;
   background: url(https://assets.getpartiful.com/backgrounds/forest/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
   //text-align: center;
   font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
@@ -91,10 +91,6 @@ const CrownIcon = styled.img`
   margin-right: 10px;
 `
 
-const ItineraryList = styled.ol`
-  padding-left: 20px;
-`;
-
 const SwapHome = () => {
   return <PageWrapper className="App">
       <SwapWrapper bgImg={ swapBackground } >
@@ -103,7 +99,7 @@ const SwapHome = () => {
             <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
          </a>
         </div>
-        <div style={{ paddingLeft: '15px'}}>
+        <div style={{ padding: '0px 15px', textAlign: 'center'}}>
           <SwapHeader>Swap Meet: A Spring Cleaning Party</SwapHeader>
           <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
           <EventDetails>
@@ -120,15 +116,17 @@ const SwapHome = () => {
               </LocationInfo>
             </HostingInfoWrapper>
             <div>
-              <ItineraryList>
-                <li>Bring stuff (clothes, accessories, furniture, electronics, whatever!) that you no longer want</li>
-                <li>Friends roaming around will take some of your stuff</li>
-                <li>You&apos;ll roam around and take some of other people&apos;s stuff that you want</li>
+                
+                Welcome to the latest innovative event in the Bay! Swap clothes, fun trinkets, miscellaneous artifacts, and even a few kisses &#128521;
                 <br></br>
-              </ItineraryList>
-              <p>We&apos;ll have drinks on hand but of course BYOB if there&apos;s anything you&apos;d like to drink!
-                We&apos;ll also probably order in food at some point. Open invite so bring any friends that want to swap some stuff!
-              </p>
+                <br></br>
+                It takes two to tango and even more to party, so we highly encourage you to bring additional friends with stuff along with you! 
+
+                Take as few or as many items as you want. We will experiment with the swapping structure throughout the night.  
+                <br></br>
+                <br></br>
+                Dresses will be flowing and so will the drinks, as this is a party, first and foremost! Light snacks will be present and we can order food as well. You are welcome to bring any additional drinks or snacks you may desire! 
+
             </div>
           </EventDetails>
         </div>
