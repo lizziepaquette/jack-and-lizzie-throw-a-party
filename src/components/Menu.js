@@ -148,14 +148,14 @@ const Menu = ({ pageWrapId, outerContainerId }
 
   return (
     <div>
-      <Reveal
+      {/* <Reveal
           isOpen={isOpen}
           pageWrapId={pageWrapId}
           outerContainerId={outerContainerId}
           styles={ updatedStyles }
           onStateChange={ state => setIsOpen(state.isOpen) } >
         { menuItems.map(item => <MenuLink key={item.linkTitle} onLinkClick={closeMenu} { ...item } />) }
-      </Reveal>
+      </Reveal> */}
       <StyledGHIcon>
         <a href="#/jobs">
           <img src={GithubIcon} alt="Github Icon" />
