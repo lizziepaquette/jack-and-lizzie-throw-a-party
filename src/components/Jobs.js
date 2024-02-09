@@ -29,7 +29,7 @@ const PartifulBackground = styled.div`
     // object-fit: cover;
   background-repeat: repeat;
   // width: 100vw;
-   height: 200vh;
+   height: 150vh;
   //position: fixed;
   //top: 0;
   //left: 0;
