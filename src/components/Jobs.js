@@ -5,16 +5,6 @@ import Clouds from '../assets/photos/clouds.mp4';
 import styled from 'styled-components';
 import SwapPartifulLogo from '../assets/swapparty/swap-partiful.png'
 
-
-const MyVideo = styled.video`
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-`;
-
 const SwapPartifulLogoImg = styled.img`
   text-align: left;
   padding-bottom: 30px;
@@ -36,17 +26,19 @@ const SwapPartifulLogoImg = styled.img`
 
 const PartifulBackground = styled.div`
   color: white;
-    object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
+    // object-fit: cover;
+  background-repeat: repeat;
+  // width: 100vw;
+   height: 200vh;
+  //position: fixed;
+  //top: 0;
+  //left: 0;
 //   padding: 20px 0px 30px 20px;
   background: url(https://assets.getpartiful.com/backgrounds/aquatica/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
   font-family: "Space Grotesk", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 400px;
+  overflow: visible;
 `;
 
 const CardDiv = styled.div`
@@ -99,7 +91,7 @@ const InfoWrapper = styled.div`
 //     // }
 `;
 
-//https://github.com/lepture/github-cards
+//https://github.co  m/lepture/github-cards
 const Jobs = ({ isScriptLoaded, isScriptLoadSucceed }) => {
   if (isScriptLoaded && isScriptLoadSucceed) {
     // window.AirbnbAPI.bootstrap();
