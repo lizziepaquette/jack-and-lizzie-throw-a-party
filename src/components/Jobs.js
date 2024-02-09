@@ -44,7 +44,9 @@ const PartifulBackground = styled.div`
   left: 0;
 //   padding: 20px 0px 30px 20px;
   background: url(https://assets.getpartiful.com/backgrounds/aquatica/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
-  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
+  font-family: "Space Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 400px;
 `;
 
 const CardDiv = styled.div`
@@ -59,11 +61,10 @@ const CardDiv = styled.div`
 `;
 
 const Title = styled.div`
-    font-size: 2.5em;
-    font-weight: 600;
-    text-transform: uppercase;
-    // letter-spacing: 3px;
-    // font-family: 'Montserrat', sans-serif;
+    // text-transform: uppercase;
+   font-family: "Space Grotesk", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 44px;
+  font-weight: 500px;
     color: white;
     display: flex;
     justify-content: center;
@@ -77,7 +78,7 @@ const Title = styled.div`
 const InfoSection = ({ title, content }) => {
     return (
         <CardDiv>
-            <h1>{ title }</h1>
+            <h4>{ title }</h4>
             { content }
         </CardDiv>
     );
@@ -92,10 +93,6 @@ const InfoWrapper = styled.div`
   justify-content: center;
   mergin-left: 5px;
   width: 100%;
-//     font-weight: 500;
-//     text-transform: uppercase;
-//     // letter-spacing: 3px;
-//     font-family: 'Montserrat', sans-serif;
 
 //     // @media only screen and (max-width: 600px) {
 //     //     padding: 1% 25px 1% 100px;
