@@ -11,21 +11,32 @@ const SwapHeader = styled.h1`
   margin: 0px;
   font-weight: 400;
   text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+  // font-family: 'Montserrat', sans-serif;
+    text-align: center;
+  color: white;
+  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
+    z-index: 3;
+
 `
 
 const SwapWrapper = styled.div`
-  color: white;
   padding: 75px 0px 30px 75px;
   background: url(https://assets.getpartiful.com/backgrounds/forest/web.jpg), linear-gradient(0deg, rgb(2, 0, 36) 0%, rgb(16, 33, 21) 0%, rgb(61, 132, 73) 38%, rgb(32, 69, 43) 100%);
-  text-align: center;
-  font-family: Syne,Avant Garde,Tahoma,Verdana,sans-serif;
+  background-repeat: repeat-y;
+  animation: slide 10s infinite;
+  position: fixed;
+  left: 0;
+  top: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 3;
 `
 
 const SwapPartyArt = styled.img`
   width: 75%;
   aspect-ratio: 1 / 1;
   padding: 10px 0px;
+
 `
 
 const EventDetails = styled.div`
@@ -50,7 +61,17 @@ const DateHeader = styled.div`
 `;
 
 const PageWrapper = styled.div`
-  @media screen and (max-width: 768px) {}
+  @media screen and (max-width: 768px) {};
+  @keyframes slide {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-70%);
+    }
+  }
+  overflow: hidden;
+}
 `
 
 const HostingInfoWrapper = styled.div`
@@ -68,8 +89,7 @@ const LocationInfo = styled.div`
 `
 
 const SwapHome = () => {
-  return <PageWrapper className="App">
-      <SwapWrapper bgImg={ swapBackground } >
+  return <div> <PageWrapper className="App">
         <SwapHeader>Stuff Swap: A Spring Cleaning Party</SwapHeader>
         <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
         <EventDetails>
@@ -116,8 +136,11 @@ const SwapHome = () => {
             </h3>
           </div>
         </EventDetails>
-      </SwapWrapper>
+      {/* </SwapWrapper> */}
+
     </PageWrapper>
+                <SwapWrapper bgImg={ swapBackground }/>
+</div>
 }
 
 export default SwapHome;
