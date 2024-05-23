@@ -10,6 +10,7 @@ import Menu from './components/Menu'
 import Logistics from './components/Logistics';
 import ReactGA from 'react-ga';
 import Schedule from './components/Schedule';
+import JacksTwentyNinthBday from './components/JacksTwentyNinthBday';
 
 function App () {
   ReactGA.initialize("UA-202521087-1");
@@ -56,6 +57,11 @@ function App () {
               exact
               path='/schedule'
               component={Schedule}
+            />
+            <Route
+              exact
+              path='/jacks-29th-bday'
+              component={JacksTwentyNinthBday}
             />
           </Switch>
         </main>
