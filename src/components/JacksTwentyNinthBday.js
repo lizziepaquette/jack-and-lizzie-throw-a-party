@@ -12,7 +12,7 @@ const JacksTwentyNinthBday = () => {
       description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - Message me if you're planning on coming and I'll provide unit access info!"
     },
     {
-      header: <><h3>8:15pm - 11pm: Natural Wines @ <a href='https://maps.app.goo.gl/qJ3vYjHr2tA5ar299' target='_blank' rel='noopener noreferrer'>Ruby Wine</a></h3></>,
+      header: <><h3>8:15pm - 11pm: Natural Wines @ <a href='https://rubywinesf.com' target='_blank' rel='noopener noreferrer'>Ruby Wine</a></h3></>,
       description: "Perhaps no place I'd rather enjoy natural wine than Ruby :-) We'll aim to get there just in time to catch the sun setting on Portrero Hill and let the wine flow from there!"
     },
     {
