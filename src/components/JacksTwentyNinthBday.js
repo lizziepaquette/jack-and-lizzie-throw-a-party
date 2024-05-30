@@ -5,15 +5,15 @@ const JacksTwentyNinthBday = () => {
   const scheduleItems = [
     {
       header: <>3 - 4:30pm: <a href='https://www.sfmoma.org/exhibition/ragnar-kjartansson-the-visitors/' target='_blank' rel='noopener noreferrer'>The Visitors @ SFMoma</a></>,
-      description: "Ever since I first saw The Visitors a year ago, I've wanted to take it in again with friends. We'll try to get to the museum for 3 so that we can catch the 3:35 showing."
+      description: "Ever since I first saw The Visitors a year ago, I've wanted to take it in again with friends. We'll try to get to the museum for 3 so that we can catch the 3:35 showing. No need to buy tickets in advance - we get access to The Visitors as part of an SF MoMA day pass so we can purchase on arrival!"
     },
     {
       header: <>5:15pm - 8pm: Deep Chill @ <a href='https://maps.app.goo.gl/VwCDp1mChTQXLz8a7' target='_blank' rel='noopener noreferrer'>Bernard&apos;s</a></>,
-      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - Message me if you're planning on coming and I'll provide unit access info!"
+      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - when you arrive, ring the intercom for APT 108 and Bernard will let you in!"
     },
     {
       header: <><h3>8:15pm - 11pm: Natural Wines @ <a href='https://rubywinesf.com' target='_blank' rel='noopener noreferrer'>Ruby Wine</a></h3></>,
-      description: "Perhaps no place I'd rather enjoy natural wine than Ruby :-) We'll aim to get there just in time to catch the sun setting on Portrero Hill and let the wine flow from there!"
+      description: "Perhaps no place I'd rather enjoy natural wine than Ruby :-) We'll aim to get there just in time to catch the sun setting on Portrero Hill and let the wine flow from there! Bring a jacket as the inside is tiny and we'll certainly be outside in their parklet."
     },
     {
       header: <><h3>11:30pm - late: <a href='https://www.instagram.com/p/C6wZp0vxq0s/?hl=en' target='_blank' rel='noopener noreferrer'>Soulful House @ Bar Part Time</a> or <a href='https://ra.co/events/1919543'>Deep South House @ F8</a> or <a href='https://ra.co/events/1901002'>Cyber1A Jungle Set @ Public Works</a></h3></>,
