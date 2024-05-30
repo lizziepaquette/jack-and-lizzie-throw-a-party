@@ -9,7 +9,7 @@ const JacksTwentyNinthBday = () => {
     },
     {
       header: <>5:15pm - 8pm: Deep Chill @ <a href='https://maps.app.goo.gl/VwCDp1mChTQXLz8a7' target='_blank' rel='noopener noreferrer'>Bernard&apos;s</a></>,
-      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - Message me if you're planning on coming and I'll provide unit access info!"
+      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - when you arrive, ring the intercom for APT 108 and Bernard will let you in!"
     },
     {
       header: <><h3>8:15pm - 11pm: Natural Wines @ <a href='https://rubywinesf.com' target='_blank' rel='noopener noreferrer'>Ruby Wine</a></h3></>,
