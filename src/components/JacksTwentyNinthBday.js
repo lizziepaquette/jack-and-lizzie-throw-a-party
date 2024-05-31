@@ -16,8 +16,8 @@ const JacksTwentyNinthBday = () => {
       description: "Perhaps no place I'd rather enjoy natural wine than Ruby :-) We'll aim to get there just in time to catch the sun setting on Portrero Hill and let the wine flow from there! Bring a jacket as the inside is tiny and we'll certainly be outside in their parklet."
     },
     {
-      header: <><h3>11:30pm - late: <a href='https://www.instagram.com/p/C6wZp0vxq0s/?hl=en' target='_blank' rel='noopener noreferrer'>Soulful House @ Bar Part Time</a> or <a href='https://ra.co/events/1919543' target='_blank' rel='noopener noreferrer'>Deep South House @ F8</a> or <a href='https://ra.co/events/1901002' target='_blank' rel='noopener noreferrer'>Cyber1A Jungle Set @ Public Works</a> or <a href='https://ra.co/events/1925941' target='_blank' rel='noopener noreferrer'>Move D @ Monarch</a></h3></>,
-      description: "These are all very good options and I think we'll decide night of. My hunch is that we'll go to F8 if we want more of a focus on the set itself, and we'll go to BPT if we want to stay centered on natural wine and hanging."
+      header: <><h3>11:30pm - late: <a href='https://ra.co/events/1925941' target='_blank' rel='noopener noreferrer'>Move D @ Monarch</a> or <a href='https://www.instagram.com/p/C6wZp0vxq0s/?hl=en' target='_blank' rel='noopener noreferrer'>Soulful House @ Bar Part Time</a> or <a href='https://ra.co/events/1919543' target='_blank' rel='noopener noreferrer'>Deep South House @ F8</a> or <a href='https://ra.co/events/1901002' target='_blank' rel='noopener noreferrer'>Cyber1A Jungle Set @ Public Works</a></h3></>,
+      description: "These are all very good options and I think we'll decide night of. I'm leaning toward Move D @ Monarch, but we all know I find BPT irresistable..."
     }
   ];
   return (
