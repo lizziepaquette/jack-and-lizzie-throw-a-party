@@ -8,8 +8,8 @@ const JacksTwentyNinthBday = () => {
       description: "Ever since I first saw The Visitors a year ago, I've wanted to take it in again with friends. We'll try to get to the museum for 3 so that we can catch the 3:35 showing. No need to buy tickets in advance - we get access to The Visitors as part of an SF MoMA day pass so we can purchase on arrival!"
     },
     {
-      header: <>5:15pm - 8pm: Deep Chill @ <a href='https://maps.app.goo.gl/VwCDp1mChTQXLz8a7' target='_blank' rel='noopener noreferrer'>Bernard&apos;s</a></>,
-      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out. Address is linked above - when you arrive, ring the intercom for APT 108 and Bernard will let you in!"
+      header: <>5:15pm - 8pm: Deep Chill @ Bernard&apos;s</>,
+      description: "Bernard has been kind enough to open up his home to us. It's the perfect cozy space for each of us to rest however we like, have some coffee/tea/dinner, and gear up for a night out."
     },
     {
       header: <><h3>8:15pm - 11pm: Natural Wines @ <a href='https://rubywinesf.com' target='_blank' rel='noopener noreferrer'>Ruby Wine</a></h3></>,
