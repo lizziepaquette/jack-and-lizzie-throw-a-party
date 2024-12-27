@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import NightSky from '../assets/photos/stock-footage-elegant-soft-shiny-dark-blue-oxford-blue-velvet-fabric-textile-abstract-fashion-interior-fabric.webm'
+// import NightSky from '../assets/photos/stock-footage-elegant-soft-shiny-dark-blue-oxford-blue-velvet-fabric-textile-abstract-fashion-interior-fabric.webm'
 
 const SpotifyIframe = styled.iframe`
     align-items: center;
@@ -45,17 +45,20 @@ const CursiveTxt = styled.h1`
     height 70%;
 `
 
-const NightSkyBackground = () => (
+const NightSkyBackground = () => {
+  console.log("NightSky: ", NightSky.src);
+  return (
     <MyVideo className='videoTag' autoPlay loop muted>
-      <source src={NightSky} type='video/mp4' />
-  </MyVideo>
-)
+      <source src={NightSky.src} type='video/mp4' />
+    </MyVideo>
+  );
+}
 
 const PageWrapper = styled.div``
 
 const Playlist = () => (
   <PageWrapper>
-    <NightSkyBackground/>
+    {/* <NightSkyBackground/> */}
     <CursiveTxt>
       Saturday the 27th of May
     </CursiveTxt>
