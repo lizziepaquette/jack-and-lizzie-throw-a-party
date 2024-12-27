@@ -8,10 +8,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="%PUBLIC_URL%/jewel.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="Gems and Jewels" />
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/jewel.png" />
         <meta property="og:url" content="%PUBLIC_URL%/collageminifiedpng.png" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Jack's 29th Birthday" />
