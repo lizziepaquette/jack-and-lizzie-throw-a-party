@@ -1,4 +1,10 @@
 import '../index.css'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Jack\'s 29th Birthday',
+  description: 'Gems and Jewels',
+}
 
 export default function RootLayout({
   children,
@@ -9,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content="Gems and Jewels" />
         <meta property="og:url" content="%PUBLIC_URL%/collageminifiedpng.png" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Jack's 29th Birthday" />
