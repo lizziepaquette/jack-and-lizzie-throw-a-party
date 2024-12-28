@@ -71,4 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### Outstanding Issues
-- [ ] Use NextJS conventions for meta tags and links: https://nextjs.org/docs/app/building-your-application/upgrading/from-create-react-app#step-4-metadata
