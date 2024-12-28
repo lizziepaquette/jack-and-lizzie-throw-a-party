@@ -96,22 +96,22 @@ const SwapHome = () => {
       <SwapWrapper bgImg={ swapBackground } >
         <div style={{ textAlign: 'left' }}>
           <a href="#">
-            <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+            <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo.src} />
          </a>
         </div>
         <div style={{ padding: '0px 15px', textAlign: 'center'}}>
           <SwapHeader>Swap Meet: A Spring Cleaning Party</SwapHeader>
-          <SwapPartyArt src={ clipArtSwapPhoto }></SwapPartyArt>
+          <SwapPartyArt src={ clipArtSwapPhoto.src }></SwapPartyArt>
           <EventDetails>
             <DateHeader>Saturday, Feb 10</DateHeader>
             <StartTime>3:30 pm PST</StartTime>
             <HostingInfoWrapper>
               <HostInfo>
-                <CrownIcon src={ crownPng } />
+                <CrownIcon src={ crownPng.src } />
                 <span>Hosted by Jack & Lizzie Throw Parties, Inc.</span>
               </HostInfo>
               <LocationInfo>
-                <LocationIcon src={ locationPng } />
+                <LocationIcon src={ locationPng.src } />
                 <span>5110 Telegraph Ave. Unit 222 Oakland, CA 94609</span>
               </LocationInfo>
             </HostingInfoWrapper>

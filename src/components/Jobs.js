@@ -1,7 +1,5 @@
 import React from "react"
 import scriptLoader from "react-async-script-loader";
-import RepoCard from "react-repo-card";
-import Clouds from '../assets/photos/clouds.mp4';
 import styled from 'styled-components';
 import SwapPartifulLogo from '../assets/swapparty/swap-partiful.png'
 
@@ -119,13 +117,13 @@ const Jobs = ({ isScriptLoaded, isScriptLoadSucceed }) => {
             <PartifulBackground>
             <div style={{ textAlign: 'left' }}>
                 <a href="#/">
-                <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo} />
+                <SwapPartifulLogoImg width='150px' src={SwapPartifulLogo.src} />
                 </a>
             </div>
 
             <Title> <br/> Meet the Developers </Title>
             <InfoWrapper>
-                { infoSectionProps.map(sec => <InfoSection { ...sec } /> ) }
+                { infoSectionProps.map(sec => <InfoSection key={sec.title} { ...sec } /> ) }
             </InfoWrapper>
             </PartifulBackground>
             </div>

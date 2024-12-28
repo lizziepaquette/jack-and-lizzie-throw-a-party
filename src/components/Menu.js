@@ -158,7 +158,7 @@ const Menu = ({ pageWrapId, outerContainerId }
       </Reveal> */}
       <StyledGHIcon>
         <a href="#/jobs">
-          <img src={GithubIcon} alt="Github Icon" />
+          <img src={GithubIcon.src} alt="Github Icon" />
         </a>
       </StyledGHIcon>
     </div>
