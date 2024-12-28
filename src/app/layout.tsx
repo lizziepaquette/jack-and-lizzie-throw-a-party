@@ -25,11 +25,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-        <title>Jack&apos;s 29th Birthday</title>
-      </head>
-
       <body>
         <div id="root">{children}</div>
       </body> 
